@@ -1,0 +1,39 @@
+name: stack-1
+services:
+  haproxy:
+    image: haproxy:latest
+    container_name: haproxy
+    volumes:
+      - ./haproxy1.cfg:/usr/local/etc/haproxy/haproxy.cfg
+    ports:
+      - "1883:1883"  # Porta MQTT
+      - "8080:8080"  # Porta de estatísticas do HAProxy
+    depends_on:
+      emqx1:
+        condition: service_healthy
+    networks:
+      - emqxnet
+
+  emqx1:
+    image: emqx/emqx:5.8
+    container_name: emqx1
+    hostname: node1.emqx.com
+    environment:
+      - EMQX_NODE_NAME=emqx@node1.emqx.com
+      - EMQX_NODE__COOKIE=meucookiecompartilhado
+      - EMQX_CLUSTER__DISCOVERY_STRATEGY=static
+      - EMQX_CLUSTER__STATIC__SEEDS=emqx@node1.emqx.com
+    ports:
+      - "18083:18083"  # Porta do painel de controle do EMQX
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -sSf http://localhost:18083 || exit 1" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - emqxnet
+
+networks:
+  emqxnet:
+    driver: bridge
+    

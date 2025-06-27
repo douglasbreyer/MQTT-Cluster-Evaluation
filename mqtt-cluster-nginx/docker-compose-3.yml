@@ -1,0 +1,77 @@
+name: stack-3
+services:
+  nginx:
+    image: nginx:1.28.0
+    container_name: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./htpasswd:/etc/nginx/.htpasswd:ro
+    ports:
+      - "1883:1883"  # Porta MQTT
+      - "8080:8080"  # Porta de status HTTP
+    depends_on:
+      emqx1:
+        condition: service_healthy
+      emqx2:
+        condition: service_healthy
+      emqx3:
+        condition: service_healthy
+    networks:
+      - emqxnet
+
+  emqx1:
+    image: emqx/emqx:5.8
+    container_name: emqx1
+    hostname: node1.emqx.com
+    environment:
+      - EMQX_NODE_NAME=emqx@node1.emqx.com
+      - EMQX_NODE__COOKIE=meucookiecompartilhado
+      - EMQX_CLUSTER__DISCOVERY_STRATEGY=static
+      - EMQX_CLUSTER__STATIC__SEEDS=emqx@node1.emqx.com,emqx@node2.emqx.com,emqx@node3.emqx.com
+    ports:
+      - "18083:18083"
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -sSf http://localhost:18083 || exit 1" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - emqxnet
+
+  emqx2:
+    image: emqx/emqx:5.8
+    container_name: emqx2
+    hostname: node2.emqx.com
+    environment:
+      - EMQX_NODE_NAME=emqx@node2.emqx.com
+      - EMQX_NODE__COOKIE=meucookiecompartilhado
+      - EMQX_CLUSTER__DISCOVERY_STRATEGY=static
+      - EMQX_CLUSTER__STATIC__SEEDS=emqx@node1.emqx.com,emqx@node2.emqx.com,emqx@node3.emqx.com
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -sSf http://localhost:18083 || exit 1" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - emqxnet
+
+  emqx3:
+    image: emqx/emqx:5.8
+    container_name: emqx3
+    hostname: node3.emqx.com
+    environment:
+      - EMQX_NODE_NAME=emqx@node3.emqx.com
+      - EMQX_NODE__COOKIE=meucookiecompartilhado
+      - EMQX_CLUSTER__DISCOVERY_STRATEGY=static
+      - EMQX_CLUSTER__STATIC__SEEDS=emqx@node1.emqx.com,emqx@node2.emqx.com,emqx@node3.emqx.com
+    healthcheck:
+      test: [ "CMD-SHELL", "curl -sSf http://localhost:18083 || exit 1" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - emqxnet
+
+networks:
+  emqxnet:
+    driver: bridge

@@ -1,0 +1,1932 @@
+{
+  "10_1000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 11.2742,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 9.0312,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 6.369400000000001,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 10.9277,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 24.7844,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 3333.333333333333,
+        "vazao_subscriber": 33333.33333333334,
+        "latencia_media": 8.5392,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 9.961300000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 10.2044,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 3333.333333333333,
+        "vazao_subscriber": 33333.33333333334,
+        "latencia_media": 7.8315,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4761.904761904761,
+        "vazao_subscriber": 47619.04761904762,
+        "latencia_media": 12.4032,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 10.3787,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 10.6019,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "10_2000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 6666.666666666667,
+        "vazao_subscriber": 66666.66666666667,
+        "latencia_media": 5.7956,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 5.856100000000001,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 4.7042,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 5128.205128205128,
+        "vazao_subscriber": 51282.05128205128,
+        "latencia_media": 6.2767,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 8.0197,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4444.444444444444,
+        "vazao_subscriber": 44444.44444444445,
+        "latencia_media": 6.881600000000001,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 5.4099,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 4444.444444444444,
+        "vazao_subscriber": 44444.44444444445,
+        "latencia_media": 7.1699,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 41666.66666666666,
+        "latencia_media": 4.5911,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 5128.205128205128,
+        "vazao_subscriber": 51282.05128205128,
+        "latencia_media": 6.286,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 5.7076,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 5.9928,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "10_3000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 60000.0,
+        "latencia_media": 3.921099999999999,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 60000.0,
+        "latencia_media": 5.0036,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 4.5783,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 60000.0,
+        "latencia_media": 4.430999999999999,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 4918.032786885246,
+        "vazao_subscriber": 49180.32786885246,
+        "latencia_media": 54.4802,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4477.611940298508,
+        "vazao_subscriber": 44776.11940298507,
+        "latencia_media": 21.8877,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 60000.0,
+        "latencia_media": 4.3527,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 6.574800000000001,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4411.764705882353,
+        "vazao_subscriber": 44117.64705882353,
+        "latencia_media": 4.829000000000001,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 60000.0,
+        "latencia_media": 4.3184,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 60000.0,
+        "latencia_media": 4.0039,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 60000.0,
+        "latencia_media": 4.689,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "10_4000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 6666.666666666667,
+        "vazao_subscriber": 66666.66666666667,
+        "latencia_media": 3.610400000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 6451.612903225807,
+        "vazao_subscriber": 64516.12903225807,
+        "latencia_media": 4.278799999999999,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5633.802816901409,
+        "vazao_subscriber": 56338.02816901408,
+        "latencia_media": 3.657,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 6451.612903225807,
+        "vazao_subscriber": 63492.06349206349,
+        "latencia_media": 3.4339,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 50000.0,
+        "latencia_media": 36.0885,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4878.048780487805,
+        "vazao_subscriber": 48780.48780487805,
+        "latencia_media": 13.3723,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5194.805194805195,
+        "vazao_subscriber": 51948.05194805195,
+        "latencia_media": 3.5876,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 4878.048780487805,
+        "vazao_subscriber": 48780.48780487805,
+        "latencia_media": 5.292,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4819.277108433735,
+        "vazao_subscriber": 48192.77108433735,
+        "latencia_media": 4.2492,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 6666.666666666667,
+        "vazao_subscriber": 66666.66666666667,
+        "latencia_media": 3.826,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 6349.206349206349,
+        "vazao_subscriber": 63492.06349206349,
+        "latencia_media": 3.8777,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 6060.606060606061,
+        "vazao_subscriber": 60606.06060606061,
+        "latencia_media": 3.297,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "10_5000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 7142.857142857143,
+        "vazao_subscriber": 71428.57142857143,
+        "latencia_media": 3.17,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 62500.0,
+        "latencia_media": 3.3347,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5555.555555555556,
+        "vazao_subscriber": 55555.55555555555,
+        "latencia_media": 3.4442,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 6172.83950617284,
+        "vazao_subscriber": 61728.39506172839,
+        "latencia_media": 2.9267,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5555.555555555556,
+        "vazao_subscriber": 55555.55555555555,
+        "latencia_media": 87.5252,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4504.504504504504,
+        "vazao_subscriber": 45045.04504504504,
+        "latencia_media": 11.3975,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 62500.0,
+        "latencia_media": 3.655600000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5555.555555555556,
+        "vazao_subscriber": 55555.55555555555,
+        "latencia_media": 4.9208,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4854.368932038835,
+        "vazao_subscriber": 48543.68932038835,
+        "latencia_media": 4.0897,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 62500.0,
+        "latencia_media": 3.2954,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 62500.0,
+        "latencia_media": 3.1409,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 62500.0,
+        "latencia_media": 3.0195,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "15_1000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 74992.1,
+        "latencia_media": 24.0418,
+        "perc_entregues": 99.98946666666667
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 72580.29032258065,
+        "latencia_media": 115.787,
+        "perc_entregues": 99.9995111111111
+      },
+      "3": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 60810.81081081081,
+        "latencia_media": 18.9298,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4838.709677419355,
+        "vazao_subscriber": 72579.67741935483,
+        "latencia_media": 25.4671,
+        "perc_entregues": 99.99866666666667
+      },
+      "2": {
+        "vazao_publisher": 4411.764705882353,
+        "vazao_subscriber": 56249.0,
+        "latencia_media": 121.8142,
+        "perc_entregues": 99.99822222222221
+      },
+      "3": {
+        "vazao_publisher": 3750.0,
+        "vazao_subscriber": 56250.0,
+        "latencia_media": 21.878,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 74998.53333333334,
+        "latencia_media": 25.0142,
+        "perc_entregues": 99.99804444444445
+      },
+      "2": {
+        "vazao_publisher": 4838.709677419355,
+        "vazao_subscriber": 72406.70967741935,
+        "latencia_media": 35.8325,
+        "perc_entregues": 99.76035555555555
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 74939.03333333334,
+        "latencia_media": 28.1143,
+        "perc_entregues": 99.91871111111112
+      }
+    }
+  },
+  "15_2000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 89983.54,
+        "latencia_media": 15.7202,
+        "perc_entregues": 99.98171111111111
+      },
+      "2": {
+        "vazao_publisher": 5172.413793103448,
+        "vazao_subscriber": 75000.0,
+        "latencia_media": 257.6563,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4838.709677419355,
+        "vazao_subscriber": 72580.64516129032,
+        "latencia_media": 13.9987,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 74994.13333333333,
+        "latencia_media": 14.821,
+        "perc_entregues": 99.99217777777778
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 64285.71428571428,
+        "latencia_media": 259.0142,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4285.714285714285,
+        "vazao_subscriber": 64285.71428571428,
+        "latencia_media": 14.9251,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 74992.81666666667,
+        "latencia_media": 14.3187,
+        "perc_entregues": 99.99042222222222
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 74997.25,
+        "latencia_media": 13.7058,
+        "perc_entregues": 99.99633333333334
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 74978.33333333333,
+        "latencia_media": 15.0198,
+        "perc_entregues": 99.97111111111111
+      }
+    }
+  },
+  "15_3000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 6164.383561643835,
+        "vazao_subscriber": 92231.52054794521,
+        "latencia_media": 13.4822,
+        "perc_entregues": 99.74668148148149
+      },
+      "2": {
+        "vazao_publisher": 5625.0,
+        "vazao_subscriber": 74987.25555555556,
+        "latencia_media": 336.8991,
+        "perc_entregues": 99.98300740740741
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 75000.0,
+        "latencia_media": 12.3414,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 5232.558139534884,
+        "vazao_subscriber": 78484.52325581395,
+        "latencia_media": 11.0994,
+        "perc_entregues": 99.9950962962963
+      },
+      "2": {
+        "vazao_publisher": 4787.234042553191,
+        "vazao_subscriber": 64285.5619047619,
+        "latencia_media": 475.2572,
+        "perc_entregues": 99.99976296296296
+      },
+      "3": {
+        "vazao_publisher": 4128.440366972477,
+        "vazao_subscriber": 60810.81081081081,
+        "latencia_media": 156.7366,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5232.558139534884,
+        "vazao_subscriber": 78486.32558139534,
+        "latencia_media": 12.4858,
+        "perc_entregues": 99.9973925925926
+      },
+      "2": {
+        "vazao_publisher": 4891.304347826087,
+        "vazao_subscriber": 65533.44660194175,
+        "latencia_media": 452.4348999999999,
+        "perc_entregues": 99.99918518518518
+      },
+      "3": {
+        "vazao_publisher": 4500.0,
+        "vazao_subscriber": 67500.0,
+        "latencia_media": 12.3285,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 5625.0,
+        "vazao_subscriber": 84374.4375,
+        "latencia_media": 10.2627,
+        "perc_entregues": 99.99933333333334
+      },
+      "2": {
+        "vazao_publisher": 5625.0,
+        "vazao_subscriber": 84370.5625,
+        "latencia_media": 10.6122,
+        "perc_entregues": 99.99474074074075
+      },
+      "3": {
+        "vazao_publisher": 5625.0,
+        "vazao_subscriber": 84364.15,
+        "latencia_media": 10.7274,
+        "perc_entregues": 99.98714074074074
+      }
+    }
+  },
+  "15_4000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 89993.61,
+        "latencia_media": 8.1506,
+        "perc_entregues": 99.99289999999999
+      },
+      "2": {
+        "vazao_publisher": 5769.23076923077,
+        "vazao_subscriber": 76922.1452991453,
+        "latencia_media": 481.2214,
+        "perc_entregues": 99.99878888888888
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 75000.0,
+        "latencia_media": 12.0197,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 5405.405405405405,
+        "vazao_subscriber": 81063.45945945945,
+        "latencia_media": 8.738800000000001,
+        "perc_entregues": 99.97826666666666
+      },
+      "2": {
+        "vazao_publisher": 4918.032786885246,
+        "vazao_subscriber": 66176.4705882353,
+        "latencia_media": 644.5795,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4255.31914893617,
+        "vazao_subscriber": 63829.78723404255,
+        "latencia_media": 83.26259999999999,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5454.545454545455,
+        "vazao_subscriber": 81817.65454545454,
+        "latencia_media": 7.806900000000001,
+        "perc_entregues": 99.99935555555555
+      },
+      "2": {
+        "vazao_publisher": 5172.413793103448,
+        "vazao_subscriber": 69230.76923076923,
+        "latencia_media": 606.5930999999999,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 4285.714285714285,
+        "vazao_subscriber": 64285.71428571428,
+        "latencia_media": 11.6563,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 5454.545454545455,
+        "vazao_subscriber": 81796.91818181818,
+        "latencia_media": 8.4041,
+        "perc_entregues": 99.97401111111112
+      },
+      "2": {
+        "vazao_publisher": 5454.545454545455,
+        "vazao_subscriber": 81808.81818181818,
+        "latencia_media": 8.305700000000002,
+        "perc_entregues": 99.98855555555555
+      },
+      "3": {
+        "vazao_publisher": 5454.545454545455,
+        "vazao_subscriber": 81818.18181818182,
+        "latencia_media": 8.7488,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "15_5000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 6302.521008403362,
+        "vazao_subscriber": 94516.64705882352,
+        "latencia_media": 7.306899999999999,
+        "perc_entregues": 99.97760888888888
+      },
+      "2": {
+        "vazao_publisher": 5859.375,
+        "vazao_subscriber": 80356.88571428572,
+        "latencia_media": 625.9046,
+        "perc_entregues": 99.99968
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 75000.0,
+        "latencia_media": 11.1471,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 5514.705882352941,
+        "vazao_subscriber": 82717.2205882353,
+        "latencia_media": 7.025999999999999,
+        "perc_entregues": 99.99592888888888
+      },
+      "2": {
+        "vazao_publisher": 5208.333333333333,
+        "vazao_subscriber": 68506.09937888199,
+        "latencia_media": 874.2551000000001,
+        "perc_entregues": 98.03984
+      },
+      "3": {
+        "vazao_publisher": 4385.964912280701,
+        "vazao_subscriber": 65789.47368421052,
+        "latencia_media": 56.28929999999999,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5395.683453237411,
+        "vazao_subscriber": 80929.77697841727,
+        "latencia_media": 8.296,
+        "perc_entregues": 99.99323555555557
+      },
+      "2": {
+        "vazao_publisher": 5172.413793103448,
+        "vazao_subscriber": 68181.01212121212,
+        "latencia_media": 749.5772000000001,
+        "perc_entregues": 99.99881777777777
+      },
+      "3": {
+        "vazao_publisher": 4310.344827586207,
+        "vazao_subscriber": 64655.1724137931,
+        "latencia_media": 11.0545,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 5769.23076923077,
+        "vazao_subscriber": 86523.19230769231,
+        "latencia_media": 7.189,
+        "perc_entregues": 99.98235555555556
+      },
+      "2": {
+        "vazao_publisher": 5725.190839694656,
+        "vazao_subscriber": 85875.16030534351,
+        "latencia_media": 7.303900000000001,
+        "perc_entregues": 99.99685333333333
+      },
+      "3": {
+        "vazao_publisher": 5769.23076923077,
+        "vazao_subscriber": 84111.87692307692,
+        "latencia_media": 8.1579,
+        "perc_entregues": 97.19594666666667
+      }
+    }
+  },
+  "20_1000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 99704.45,
+        "latencia_media": 29.4839,
+        "perc_entregues": 99.70445
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 79877.6,
+        "latencia_media": 473.7884,
+        "perc_entregues": 99.84700000000001
+      },
+      "3": {
+        "vazao_publisher": 4000.0,
+        "vazao_subscriber": 79762.16,
+        "latencia_media": 140.6646,
+        "perc_entregues": 99.70270000000001
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4000.0,
+        "vazao_subscriber": 79728.84,
+        "latencia_media": 31.408,
+        "perc_entregues": 99.66105
+      },
+      "2": {
+        "vazao_publisher": 4081.632653061225,
+        "vazao_subscriber": 63484.52380952381,
+        "latencia_media": 543.6205,
+        "perc_entregues": 99.988125
+      },
+      "3": {
+        "vazao_publisher": 3174.603174603174,
+        "vazao_subscriber": 63492.06349206349,
+        "latencia_media": 117.92,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4000.0,
+        "vazao_subscriber": 79361.74,
+        "latencia_media": 33.6862,
+        "perc_entregues": 99.20217499999998
+      },
+      "2": {
+        "vazao_publisher": 4000.0,
+        "vazao_subscriber": 79900.46,
+        "latencia_media": 31.3792,
+        "perc_entregues": 99.875575
+      },
+      "3": {
+        "vazao_publisher": 4000.0,
+        "vazao_subscriber": 79781.56,
+        "latencia_media": 32.7332,
+        "perc_entregues": 99.72694999999999
+      }
+    }
+  },
+  "20_2000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 99749.725,
+        "latencia_media": 18.3462,
+        "perc_entregues": 99.749725
+      },
+      "2": {
+        "vazao_publisher": 5714.285714285715,
+        "vazao_subscriber": 85037.01063829787,
+        "latencia_media": 1030.0446,
+        "perc_entregues": 99.9184875
+      },
+      "3": {
+        "vazao_publisher": 4444.444444444444,
+        "vazao_subscriber": 87907.74725274726,
+        "latencia_media": 230.2327,
+        "perc_entregues": 99.99506249999999
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4494.38202247191,
+        "vazao_subscriber": 89368.59550561798,
+        "latencia_media": 21.2357,
+        "perc_entregues": 99.4225625
+      },
+      "2": {
+        "vazao_publisher": 4494.38202247191,
+        "vazao_subscriber": 67714.55084745762,
+        "latencia_media": 1169.2646,
+        "perc_entregues": 99.8789625
+      },
+      "3": {
+        "vazao_publisher": 3389.830508474576,
+        "vazao_subscriber": 65567.0737704918,
+        "latencia_media": 304.4473,
+        "perc_entregues": 99.9897875
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4444.444444444444,
+        "vazao_subscriber": 88596.44444444444,
+        "latencia_media": 18.2411,
+        "perc_entregues": 99.671
+      },
+      "2": {
+        "vazao_publisher": 4444.444444444444,
+        "vazao_subscriber": 88770.5,
+        "latencia_media": 18.0034,
+        "perc_entregues": 99.8668125
+      },
+      "3": {
+        "vazao_publisher": 4444.444444444444,
+        "vazao_subscriber": 88820.72222222222,
+        "latencia_media": 17.245,
+        "perc_entregues": 99.9233125
+      }
+    }
+  },
+  "20_3000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5454.545454545455,
+        "vazao_subscriber": 108796.6,
+        "latencia_media": 12.7487,
+        "perc_entregues": 99.73021666666666
+      },
+      "2": {
+        "vazao_publisher": 6000.0,
+        "vazao_subscriber": 86924.53623188406,
+        "latencia_media": 1515.5202,
+        "perc_entregues": 99.96321666666668
+      },
+      "3": {
+        "vazao_publisher": 4511.278195488721,
+        "vazao_subscriber": 85708.61428571428,
+        "latencia_media": 399.3684,
+        "perc_entregues": 99.99338333333333
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 4316.546762589928,
+        "vazao_subscriber": 86168.65467625899,
+        "latencia_media": 15.5764,
+        "perc_entregues": 99.812025
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 75237.23809523809,
+        "latencia_media": 1334.2142,
+        "perc_entregues": 92.16561666666666
+      },
+      "3": {
+        "vazao_publisher": 3658.536585365854,
+        "vazao_subscriber": 70588.23529411765,
+        "latencia_media": 609.1743,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4687.5,
+        "vazao_subscriber": 93646.078125,
+        "latencia_media": 13.1388,
+        "perc_entregues": 99.88915
+      },
+      "2": {
+        "vazao_publisher": 5172.413793103448,
+        "vazao_subscriber": 77659.86928104576,
+        "latencia_media": 1597.9645,
+        "perc_entregues": 99.01633333333334
+      },
+      "3": {
+        "vazao_publisher": 4000.0,
+        "vazao_subscriber": 80000.0,
+        "latencia_media": 279.4974,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4615.384615384615,
+        "vazao_subscriber": 92216.46923076923,
+        "latencia_media": 13.3138,
+        "perc_entregues": 99.901175
+      },
+      "2": {
+        "vazao_publisher": 4615.384615384615,
+        "vazao_subscriber": 92181.86923076923,
+        "latencia_media": 13.7335,
+        "perc_entregues": 99.86369166666665
+      },
+      "3": {
+        "vazao_publisher": 4687.5,
+        "vazao_subscriber": 93626.0859375,
+        "latencia_media": 12.902,
+        "perc_entregues": 99.86782500000001
+      }
+    }
+  },
+  "20_4000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5594.405594405594,
+        "vazao_subscriber": 111822.4825174825,
+        "latencia_media": 10.2693,
+        "perc_entregues": 99.94134375000002
+      },
+      "2": {
+        "vazao_publisher": 6015.037593984963,
+        "vazao_subscriber": 86826.57575757576,
+        "latencia_media": 1625.6117,
+        "perc_entregues": 89.53990624999999
+      },
+      "3": {
+        "vazao_publisher": 4624.277456647399,
+        "vazao_subscriber": 88397.79005524862,
+        "latencia_media": 520.1111,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 4733.727810650887,
+        "vazao_subscriber": 94582.58579881657,
+        "latencia_media": 10.7397,
+        "perc_entregues": 99.90285624999999
+      },
+      "2": {
+        "vazao_publisher": 5228.75816993464,
+        "vazao_subscriber": 78637.91620111732,
+        "latencia_media": 1547.9488,
+        "perc_entregues": 87.97616875
+      },
+      "3": {
+        "vazao_publisher": 4081.632653061225,
+        "vazao_subscriber": 75947.20588235294,
+        "latencia_media": 934.2103,
+        "perc_entregues": 96.83268749999999
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4102.564102564103,
+        "vazao_subscriber": 82010.56923076924,
+        "latencia_media": 12.2991,
+        "perc_entregues": 99.95038124999999
+      },
+      "2": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 64528.64545454545,
+        "latencia_media": 1720.1811,
+        "perc_entregues": 88.7268875
+      },
+      "3": {
+        "vazao_publisher": 3100.775193798449,
+        "vazao_subscriber": 61067.58778625954,
+        "latencia_media": 492.2907,
+        "perc_entregues": 99.998175
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4819.277108433735,
+        "vazao_subscriber": 96280.18072289157,
+        "latencia_media": 11.1248,
+        "perc_entregues": 99.89068749999998
+      },
+      "2": {
+        "vazao_publisher": 4848.484848484848,
+        "vazao_subscriber": 96843.94545454545,
+        "latencia_media": 10.6809,
+        "perc_entregues": 99.87031875
+      },
+      "3": {
+        "vazao_publisher": 4705.882352941177,
+        "vazao_subscriber": 94014.70588235294,
+        "latencia_media": 10.8677,
+        "perc_entregues": 99.89062500000001
+      }
+    }
+  },
+  "20_5000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5555.555555555556,
+        "vazao_subscriber": 111050.1611111111,
+        "latencia_media": 8.542900000000001,
+        "perc_entregues": 99.945145
+      },
+      "2": {
+        "vazao_publisher": 5780.346820809248,
+        "vazao_subscriber": 86426.10256410256,
+        "latencia_media": 1485.8618,
+        "perc_entregues": 84.26545000000002
+      },
+      "3": {
+        "vazao_publisher": 4651.162790697675,
+        "vazao_subscriber": 90086.7927927928,
+        "latencia_media": 689.7114999999999,
+        "perc_entregues": 99.99634
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 4545.454545454545,
+        "vazao_subscriber": 90844.61818181818,
+        "latencia_media": 10.2205,
+        "perc_entregues": 99.92908
+      },
+      "2": {
+        "vazao_publisher": 4854.368932038835,
+        "vazao_subscriber": 75238.84782608696,
+        "latencia_media": 1645.4204,
+        "perc_entregues": 86.524675
+      },
+      "3": {
+        "vazao_publisher": 3937.007874015748,
+        "vazao_subscriber": 74212.36121673005,
+        "latencia_media": 901.6537000000001,
+        "perc_entregues": 97.589255
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4739.336492890995,
+        "vazao_subscriber": 94700.91943127962,
+        "latencia_media": 10.0729,
+        "perc_entregues": 99.90947
+      },
+      "2": {
+        "vazao_publisher": 5076.142131979695,
+        "vazao_subscriber": 77088.67713004485,
+        "latencia_media": 1936.503,
+        "perc_entregues": 85.953875
+      },
+      "3": {
+        "vazao_publisher": 3816.793893129771,
+        "vazao_subscriber": 74902.3595505618,
+        "latencia_media": 572.2319,
+        "perc_entregues": 99.99465000000001
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4878.048780487805,
+        "vazao_subscriber": 97485.34634146342,
+        "latencia_media": 9.3125,
+        "perc_entregues": 99.92248000000001
+      },
+      "2": {
+        "vazao_publisher": 4901.960784313726,
+        "vazao_subscriber": 97927.11764705883,
+        "latencia_media": 9.058,
+        "perc_entregues": 99.88566
+      },
+      "3": {
+        "vazao_publisher": 4830.917874396136,
+        "vazao_subscriber": 96587.56521739131,
+        "latencia_media": 9.094,
+        "perc_entregues": 99.96813
+      }
+    }
+  },
+  "25_1000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 103554.8333333333,
+        "latencia_media": 32.4077,
+        "perc_entregues": 99.41264
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 89200.9,
+        "latencia_media": 1006.1004,
+        "perc_entregues": 99.90500800000001
+      },
+      "3": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 89260.5,
+        "latencia_media": 536.0503000000001,
+        "perc_entregues": 99.97175999999999
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 3378.378378378378,
+        "vazao_subscriber": 83838.2027027027,
+        "latencia_media": 36.6603,
+        "perc_entregues": 99.26443199999999
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 77840.3,
+        "latencia_media": 1040.7567,
+        "perc_entregues": 99.63558400000001
+      },
+      "3": {
+        "vazao_publisher": 3333.333333333333,
+        "vazao_subscriber": 70974.65909090909,
+        "latencia_media": 564.512,
+        "perc_entregues": 99.93232
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 3571.428571428572,
+        "vazao_subscriber": 88642.32857142857,
+        "latencia_media": 33.33059999999999,
+        "perc_entregues": 99.27940799999999
+      },
+      "2": {
+        "vazao_publisher": 3571.428571428572,
+        "vazao_subscriber": 88876.25714285714,
+        "latencia_media": 32.7263,
+        "perc_entregues": 99.54140800000002
+      },
+      "3": {
+        "vazao_publisher": 3571.428571428572,
+        "vazao_subscriber": 88628.9,
+        "latencia_media": 33.274,
+        "perc_entregues": 99.26436799999999
+      }
+    }
+  },
+  "25_2000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 4716.981132075472,
+        "vazao_subscriber": 117606.7924528302,
+        "latencia_media": 17.6209,
+        "perc_entregues": 99.73056
+      },
+      "2": {
+        "vazao_publisher": 5555.555555555556,
+        "vazao_subscriber": 89421.15037593985,
+        "latencia_media": 1849.2,
+        "perc_entregues": 95.144104
+      },
+      "3": {
+        "vazao_publisher": 4672.897196261682,
+        "vazao_subscriber": 94197.86363636363,
+        "latencia_media": 1202.263,
+        "perc_entregues": 99.472944
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4065.040650406504,
+        "vazao_subscriber": 101468.756097561,
+        "latencia_media": 18.3695,
+        "perc_entregues": 99.84525599999998
+      },
+      "2": {
+        "vazao_publisher": 4347.826086956522,
+        "vazao_subscriber": 73278.43137254902,
+        "latencia_media": 1866.5783,
+        "perc_entregues": 89.6928
+      },
+      "3": {
+        "vazao_publisher": 3875.968992248062,
+        "vazao_subscriber": 78491.82278481012,
+        "latencia_media": 1203.9513,
+        "perc_entregues": 99.213664
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 103772.0916666667,
+        "latencia_media": 18.7586,
+        "perc_entregues": 99.621208
+      },
+      "2": {
+        "vazao_publisher": 3937.007874015748,
+        "vazao_subscriber": 98229.59842519685,
+        "latencia_media": 18.7709,
+        "perc_entregues": 99.801272
+      },
+      "3": {
+        "vazao_publisher": 4132.231404958678,
+        "vazao_subscriber": 102984.3223140496,
+        "latencia_media": 19.3149,
+        "perc_entregues": 99.688824
+      }
+    }
+  },
+  "25_3000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 4716.981132075472,
+        "vazao_subscriber": 117676.6289308176,
+        "latencia_media": 14.1381,
+        "perc_entregues": 99.78978133333334
+      },
+      "2": {
+        "vazao_publisher": 5725.190839694656,
+        "vazao_subscriber": 91103.44171779141,
+        "latencia_media": 1664.9545,
+        "perc_entregues": 79.19925866666668
+      },
+      "3": {
+        "vazao_publisher": 4658.385093167702,
+        "vazao_subscriber": 95488.57068062827,
+        "latencia_media": 1638.4098,
+        "perc_entregues": 97.27102399999998
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 4076.086956521739,
+        "vazao_subscriber": 101807.1304347826,
+        "latencia_media": 16.2835,
+        "perc_entregues": 99.90673066666666
+      },
+      "2": {
+        "vazao_publisher": 4491.017964071856,
+        "vazao_subscriber": 76825.49253731343,
+        "latencia_media": 2019.6769,
+        "perc_entregues": 82.35692800000001
+      },
+      "3": {
+        "vazao_publisher": 4120.879120879121,
+        "vazao_subscriber": 84407.35238095238,
+        "latencia_media": 1488.1255,
+        "perc_entregues": 94.53623466666666
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4076.086956521739,
+        "vazao_subscriber": 101734.7554347826,
+        "latencia_media": 14.4774,
+        "perc_entregues": 99.83570666666667
+      },
+      "2": {
+        "vazao_publisher": 4120.879120879121,
+        "vazao_subscriber": 71614.31775700934,
+        "latencia_media": 2149.3343,
+        "perc_entregues": 81.73580799999999
+      },
+      "3": {
+        "vazao_publisher": 4143.646408839779,
+        "vazao_subscriber": 87785.97142857143,
+        "latencia_media": 1358.938,
+        "perc_entregues": 98.320288
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 103906.95,
+        "latencia_media": 13.5319,
+        "perc_entregues": 99.750672
+      },
+      "2": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 103920.6944444444,
+        "latencia_media": 14.0907,
+        "perc_entregues": 99.76386666666667
+      },
+      "3": {
+        "vazao_publisher": 4143.646408839779,
+        "vazao_subscriber": 103335.729281768,
+        "latencia_media": 13.866,
+        "perc_entregues": 99.75342400000001
+      }
+    }
+  },
+  "25_4000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 4950.495049504951,
+        "vazao_subscriber": 123550.1089108911,
+        "latencia_media": 11.282,
+        "perc_entregues": 99.828488
+      },
+      "2": {
+        "vazao_publisher": 5681.818181818182,
+        "vazao_subscriber": 96406.50710900474,
+        "latencia_media": 1812.3604,
+        "perc_entregues": 81.36709199999999
+      },
+      "3": {
+        "vazao_publisher": 4784.688995215311,
+        "vazao_subscriber": 95115.83193277312,
+        "latencia_media": 1992.3465,
+        "perc_entregues": 90.550272
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 4048.582995951417,
+        "vazao_subscriber": 100974.6842105263,
+        "latencia_media": 12.3409,
+        "perc_entregues": 99.76298799999999
+      },
+      "2": {
+        "vazao_publisher": 4761.904761904761,
+        "vazao_subscriber": 84100.10460251046,
+        "latencia_media": 1903.1279,
+        "perc_entregues": 80.39970000000001
+      },
+      "3": {
+        "vazao_publisher": 3257.328990228013,
+        "vazao_subscriber": 69598.60923076923,
+        "latencia_media": 1891.1256,
+        "perc_entregues": 90.47819199999999
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4255.31914893617,
+        "vazao_subscriber": 106243.4893617021,
+        "latencia_media": 11.446,
+        "perc_entregues": 99.86887999999999
+      },
+      "2": {
+        "vazao_publisher": 4048.582995951417,
+        "vazao_subscriber": 70146.37543859649,
+        "latencia_media": 2001.9771,
+        "perc_entregues": 79.966868
+      },
+      "3": {
+        "vazao_publisher": 3508.771929824562,
+        "vazao_subscriber": 74072.8474025974,
+        "latencia_media": 1817.1701,
+        "perc_entregues": 91.257748
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4237.28813559322,
+        "vazao_subscriber": 105773.4322033898,
+        "latencia_media": 11.7077,
+        "perc_entregues": 99.85011999999999
+      },
+      "2": {
+        "vazao_publisher": 4201.680672268908,
+        "vazao_subscriber": 104870.5420168067,
+        "latencia_media": 10.9495,
+        "perc_entregues": 99.836756
+      },
+      "3": {
+        "vazao_publisher": 4219.409282700421,
+        "vazao_subscriber": 105276.5358649789,
+        "latencia_media": 11.6867,
+        "perc_entregues": 99.802156
+      }
+    }
+  },
+  "25_5000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 4826.254826254826,
+        "vazao_subscriber": 120449.2664092664,
+        "latencia_media": 9.815299999999999,
+        "perc_entregues": 99.82835200000001
+      },
+      "2": {
+        "vazao_publisher": 5656.108597285068,
+        "vazao_subscriber": 93310.53703703704,
+        "latencia_media": 2210.3724,
+        "perc_entregues": 80.620304
+      },
+      "3": {
+        "vazao_publisher": 4789.272030651341,
+        "vazao_subscriber": 96583.48070175438,
+        "latencia_media": 2079.5255,
+        "perc_entregues": 88.08413440000001
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 3869.969040247678,
+        "vazao_subscriber": 96631.56346749226,
+        "latencia_media": 11.2216,
+        "perc_entregues": 99.87838400000001
+      },
+      "2": {
+        "vazao_publisher": 4512.635379061372,
+        "vazao_subscriber": 78863.53525641025,
+        "latencia_media": 2058.4429,
+        "perc_entregues": 78.7373536
+      },
+      "3": {
+        "vazao_publisher": 3869.969040247678,
+        "vazao_subscriber": 83393.45427728613,
+        "latencia_media": 1691.4947,
+        "perc_entregues": 90.4652192
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 4280.821917808219,
+        "vazao_subscriber": 106741.4931506849,
+        "latencia_media": 11.318,
+        "perc_entregues": 99.7392512
+      },
+      "2": {
+        "vazao_publisher": 5060.728744939272,
+        "vazao_subscriber": 85819.25631768953,
+        "latencia_media": 1698.3874,
+        "perc_entregues": 76.07018880000001
+      },
+      "3": {
+        "vazao_publisher": 4237.28813559322,
+        "vazao_subscriber": 89548.73208722741,
+        "latencia_media": 1855.0331,
+        "perc_entregues": 91.9844576
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4295.53264604811,
+        "vazao_subscriber": 107281.4810996564,
+        "latencia_media": 10.0667,
+        "perc_entregues": 99.9005152
+      },
+      "2": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 104049.4466666667,
+        "latencia_media": 10.0081,
+        "perc_entregues": 99.8874688
+      },
+      "3": {
+        "vazao_publisher": 4266.211604095563,
+        "vazao_subscriber": 106543.2150170649,
+        "latencia_media": 10.1903,
+        "perc_entregues": 99.89491840000001
+      }
+    }
+  },
+  "5_1000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.19,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.4536,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.542,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.1737,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.4289,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 3125.0,
+        "vazao_subscriber": 15625.0,
+        "latencia_media": 1.5943,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 3125.0,
+        "vazao_subscriber": 15625.0,
+        "latencia_media": 1.6776,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.4025,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 2941.176470588235,
+        "vazao_subscriber": 14705.88235294118,
+        "latencia_media": 1.5755,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 20833.33333333333,
+        "latencia_media": 1.2032,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 4166.666666666667,
+        "vazao_subscriber": 20833.33333333333,
+        "latencia_media": 1.1818,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 3846.153846153846,
+        "vazao_subscriber": 19230.76923076923,
+        "latencia_media": 1.3147,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "5_2000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.0283,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.2835,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.3829,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 0.9164999999999999,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.3165,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.4753,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 0.9456000000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.2562,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.4323,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 4761.904761904761,
+        "vazao_subscriber": 23809.52380952381,
+        "latencia_media": 1.0092,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 0.9528000000000001,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 0.9113,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "5_3000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 5172.413793103448,
+        "vazao_subscriber": 25862.06896551724,
+        "latencia_media": 0.8499000000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.175,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.3004,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 0.8737,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.5788,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.4083,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 0.8605,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.2315,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.4065,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 0.8252,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 0.9515999999999998,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 0.8591,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "5_4000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 6666.666666666667,
+        "vazao_subscriber": 33333.33333333334,
+        "latencia_media": 0.8812000000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5555.555555555556,
+        "vazao_subscriber": 27777.77777777778,
+        "latencia_media": 1.1217,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.271,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 6666.666666666667,
+        "vazao_subscriber": 33333.33333333334,
+        "latencia_media": 0.8107000000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.2715,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.3449,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 5263.157894736843,
+        "vazao_subscriber": 26315.78947368421,
+        "latencia_media": 0.9813000000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.1829,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.3786,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 6666.666666666667,
+        "vazao_subscriber": 33333.33333333334,
+        "latencia_media": 0.8312000000000002,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 6666.666666666667,
+        "vazao_subscriber": 33333.33333333334,
+        "latencia_media": 0.8426,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 6666.666666666667,
+        "vazao_subscriber": 33333.33333333334,
+        "latencia_media": 0.8367999999999999,
+        "perc_entregues": 100.0
+      }
+    }
+  },
+  "5_5000": {
+    "RoundRobin": {
+      "1": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 31250.0,
+        "latencia_media": 0.8387,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 6097.560975609756,
+        "vazao_subscriber": 30487.80487804878,
+        "latencia_media": 1.2197,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.2559,
+        "perc_entregues": 100.0
+      }
+    },
+    "Random": {
+      "1": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 31250.0,
+        "latencia_media": 0.8038000000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.1935,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.3735,
+        "perc_entregues": 100.0
+      }
+    },
+    "LeastConn": {
+      "1": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 31250.0,
+        "latencia_media": 0.8059000000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.2116,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 5000.0,
+        "vazao_subscriber": 25000.0,
+        "latencia_media": 1.3707,
+        "perc_entregues": 100.0
+      }
+    },
+    "First": {
+      "1": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 31250.0,
+        "latencia_media": 0.7932000000000001,
+        "perc_entregues": 100.0
+      },
+      "2": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 31250.0,
+        "latencia_media": 0.8105,
+        "perc_entregues": 100.0
+      },
+      "3": {
+        "vazao_publisher": 6250.0,
+        "vazao_subscriber": 31250.0,
+        "latencia_media": 0.8004,
+        "perc_entregues": 100.0
+      }
+    }
+  }
+}
